@@ -18,3 +18,12 @@
     background-color: blue;
     border-radius: 100%;
 }
+
+@media only screen and(max-width:768px) {
+    .bg-dark {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
